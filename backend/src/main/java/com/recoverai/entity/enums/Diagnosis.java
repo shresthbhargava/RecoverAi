@@ -1,0 +1,11 @@
+package com.recoverai.entity.enums;
+
+public enum Diagnosis {
+    TEMPORARY_BANK_FAILURE,
+    INSUFFICIENT_FUNDS,
+    USER_ABANDONMENT,
+    PAYMENT_METHOD_FAILURE,
+    TECHNICAL_TIMEOUT,
+    LOW_RECOVERY_PROBABILITY,
+    UNKNOWN
+}

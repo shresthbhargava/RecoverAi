@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "paymentRef": "pay_evt_001",
+      "customerRef": "cust_201",
+      "customerName": "Ananya Rao",
+      "customerEmail": "ananya.rao@example.com",
+      "customerPhone": "+919812345001",
+      "amount": 4500,
+      "currency": "INR",
+      "eventType": "PAYMENT_FAILED",
+      "failureReason": "BANK_TIMEOUT",
+      "paymentMethod": "netbanking"
+    },
+    {
+      "paymentRef": "pay_evt_002",
+      "customerRef": "cust_202",
+      "customerName": "Rohit Menon",
+      "customerEmail": "rohit.menon@example.com",
+      "customerPhone": "+919812345002",
+      "amount": 12000,
+      "currency": "INR",
+      "eventType": "CHECKOUT_ABANDONED",
+      "paymentMethod": "card"
+    },
+    {
+      "paymentRef": "pay_evt_003",
+      "customerRef": "cust_203",
+      "customerName": "Priya Nair",
+      "customerEmail": "priya.nair@example.com",
+      "customerPhone": "+919812345003",
+      "amount": 2500,
+      "currency": "INR",
+      "eventType": "PAYMENT_FAILED",
+      "failureReason": "INSUFFICIENT_FUNDS",
+      "paymentMethod": "upi"
+    },
+    {
+      "paymentRef": "pay_evt_004",
+      "customerRef": "cust_204",
+      "customerName": "Devansh Gupta",
+      "customerEmail": "devansh.gupta@example.com",
+      "customerPhone": "+919812345004",
+      "amount": 800,
+      "currency": "INR",
+      "eventType": "PAYMENT_FAILED",
+      "failureReason": "CARD_DECLINED",
+      "paymentMethod": "card"
+    },
+    {
+      "paymentRef": "pay_evt_005",
+      "customerRef": "cust_205",
+      "customerName": "Meera Iyer",
+      "customerEmail": "meera.iyer@example.com",
+      "customerPhone": "+919812345005",
+      "amount": 25,
+      "currency": "INR",
+      "eventType": "CHECKOUT_ABANDONED",
+      "paymentMethod": "upi"
+    },
+    {
+      "paymentRef": "pay_evt_006",
+      "customerRef": "cust_206",
+      "customerName": "Karthik Subramanian",
+      "customerEmail": "karthik.s@example.com",
+      "customerPhone": "+919812345006",
+      "amount": 15000,
+      "currency": "INR",
+      "eventType": "PAYMENT_PENDING_TOO_LONG",
+      "failureReason": "GATEWAY_TIMEOUT",
+      "paymentMethod": "netbanking"
+    }
+  ]
+}

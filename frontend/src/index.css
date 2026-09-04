@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0B0D10;
+    --bg-secondary: #111419;
+    --bg-tertiary: #15191F;
+    --border-color: #242A32;
+    --text-primary: #F5F7FA;
+    --text-secondary: #8B949E;
+    --text-muted: #5F6875;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar for dark financial command center */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0D10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #242A32;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B4452;
+  }
+}
+
+.tabular-nums {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
